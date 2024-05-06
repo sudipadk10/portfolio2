@@ -18,17 +18,13 @@ const page = () => {
           </div>
           <div className="flex flex-col lg:flex-row justify-between gap-8 md:gap-20 lg:gap-40">
             <div className="flex-1 p-4 space-y-8">
-              <p className="text-[#ACB2CF]">Hello, i&apos;m Eric!</p>
+              <p className="text-[#ACB2CF]">Hello, i&apos;m Sudip Adhikari!</p>
               <p className="text-[#ACB2CF]">
-                I’m a self-taught front-end developer based in Kyiv, Ukraine. I
-                can develop responsive websites from scratch and raise them into
-                modern user-friendly web experiences.
+
+              As an IT Specialist and Networking Enthusiast with a keen interest in cybersecurity, I'm passionate about leveraging technology to build secure and efficient digital infrastructures.
               </p>
               <p className="text-[#ACB2CF]">
-                Transforming my creativity and knowledge into websites has been
-                my passion for over a year. I have been helping various clients
-                to establish their presence online. I always strive to learn
-                about the newest technologies and frameworks.
+              I specialize in implementing robust networking solutions and optimizing IT systems to meet the evolving needs of businesses. My journey in IT has been driven by a fascination with cybersecurity, constantly seeking to enhance defenses against emerging threats.
               </p>
               <button className="inline-block border border-[#C778DE] py-2 px-4 text-white">
                 Read more -&gt;
@@ -38,8 +34,8 @@ const page = () => {
               <div className="relative max-w-xs sm:max-w-xs md:max-w-xs lg:max-w-sm xl:max-w-sm mx-auto md:mx-0 md:ml-auto">
                 <Image
                   alt="sudip"
-                  className="w-full h-auto border-b border-[#C778DE]"
-                  src="/profile.png"
+                  className="w-auto h-full border-b rounded-xl "
+                  src="/laptop.png"
                   width={300}
                   height={300}
                 />

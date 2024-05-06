@@ -9,11 +9,11 @@ const Page = () => {
       <div className="relative py-12 text-center md:text-left flex flex-col justify-center md:flex-grow">
         <h1 className="text-5xl font-bold mb-4 leading-normal">
           Sudip is a
-          <span className="text-[#C778DE] mx-4">web designer</span>
+          <span className="text-[#C778DE] mx-4">IT Specialist</span>
           and
-          <span className="text-[#C778DE] ml-4">front-end developer</span>
+          <span className="text-[#C778DE] ml-4">Networking Enthusiast</span>
         </h1>
-        <p className="w-full text-center md:text-left mt-4 text-[#ACB2CF]">He crafts responsive websites where technologies meet creativity</p>
+        <p className="w-full text-center md:text-left mt-4 text-[#ACB2CF]">Connecting tech and creativity for seamless networks.</p>
         <ContactMe/>
       </div>
       <div className="relative flex md:flex-none">
@@ -27,9 +27,9 @@ const Page = () => {
           <div className="flex items-center border border-[#ACB2CF] text-[#ACB2CF] py-2 px-4">
             <span className="inline-block bg-[#C778DE] w-4 h-4 mr-4"></span>
             <p>
-              Currently working on
+              Currently studying 
               
-              <span className="text-white">Portfolio</span>
+              <span className="text-white"> BSC.CSIT</span>
             </p>
           </div>
         </div>
@@ -226,7 +226,7 @@ const Page = () => {
               d="M23.7861 25.4792C23.7861 27.2873 23.1249 28.8121 21.8026 30.0535C20.5072 31.2949 18.9285 31.9156 17.0664 31.9156C15.1503 31.9156 13.5581 31.2949 12.2897 30.0535C11.0483 28.8121 10.4276 27.2873 10.4276 25.4792C10.4276 24.6156 10.5491 23.6981 10.7919 22.7265C11.0348 21.755 11.5206 20.5001 12.2492 18.9619L18.5237 5.72485H24.5957L21.2358 20.3787C21.9915 20.9184 22.5987 21.6336 23.0574 22.5241C23.5432 23.3877 23.7861 24.3727 23.7861 25.4792ZM41.7998 25.4792C41.7998 27.2873 41.1386 28.8121 39.8163 30.0535C38.4939 31.2949 36.9152 31.9156 35.0801 31.9156C33.218 31.9156 31.6393 31.2949 30.3439 30.0535C29.0755 28.8121 28.4413 27.2873 28.4413 25.4792C28.4413 24.6156 28.5628 23.6981 28.8056 22.7265C29.0485 21.755 29.5478 20.5001 30.3034 18.9619L36.6183 5.72485H42.6499L39.2495 20.3787C40.0322 20.9184 40.6529 21.6336 41.1116 22.5241C41.5704 23.3877 41.7998 24.3727 41.7998 25.4792Z"
               fill="#ABB2BF"></path>
           </svg>
-          With great power comes great electricity bill
+          My computer's always hot cause it's windowless!
         </div>
         <div className="inline-block text-right mt-[-1px] border border-[#ACB2CF] p-4 relative">
           <svg
@@ -243,7 +243,7 @@ const Page = () => {
               d="M23.7861 25.4792C23.7861 27.2873 23.1249 28.8121 21.8026 30.0535C20.5072 31.2949 18.9285 31.9156 17.0664 31.9156C15.1503 31.9156 13.5581 31.2949 12.2897 30.0535C11.0483 28.8121 10.4276 27.2873 10.4276 25.4792C10.4276 24.6156 10.5491 23.6981 10.7919 22.7265C11.0348 21.755 11.5206 20.5001 12.2492 18.9619L18.5237 5.72485H24.5957L21.2358 20.3787C21.9915 20.9184 22.5987 21.6336 23.0574 22.5241C23.5432 23.3877 23.7861 24.3727 23.7861 25.4792ZM41.7998 25.4792C41.7998 27.2873 41.1386 28.8121 39.8163 30.0535C38.4939 31.2949 36.9152 31.9156 35.0801 31.9156C33.218 31.9156 31.6393 31.2949 30.3439 30.0535C29.0755 28.8121 28.4413 27.2873 28.4413 25.4792C28.4413 24.6156 28.5628 23.6981 28.8056 22.7265C29.0485 21.755 29.5478 20.5001 30.3034 18.9619L36.6183 5.72485H42.6499L39.2495 20.3787C40.0322 20.9184 40.6529 21.6336 41.1116 22.5241C41.5704 23.3877 41.7998 24.3727 41.7998 25.4792Z"
               fill="#ABB2BF"></path>
           </svg>
-          - Dr. Who
+          ~  just for fun ~
         </div>
       </div>
     </div>

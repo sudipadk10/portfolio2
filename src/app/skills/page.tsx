@@ -380,27 +380,30 @@ const page = () => {
               <div className="border border-[#ACB2CF]">
                 <p className="text-white p-2 font-bold">Languages</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
-                  <p className="text-[#ACB2CF]">TypeScript Lua</p>
-                  <p className="text-[#ACB2CF]">Python JavaScript</p>
+                  <p className="text-[#ACB2CF]">Python</p>
+                  <p className="text-[#ACB2CF]">C programming</p>
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/3 p-2 false">
+            <div className="w-full md:w-2/3 p-2 false ">
               <div className="border border-[#ACB2CF]">
-                <p className="text-white p-2 font-bold">Databases</p>
+                <p className="text-white p-2 font-bold">Networking</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
-                  <p className="text-[#ACB2CF]">SQLite PostgreSQL</p>
-                  <p className="text-[#ACB2CF]">Mongo</p>
+                  <p className="text-[#ACB2CF]">Router and switch configuration</p>
+                  <p className="text-[#ACB2CF]">Network subneting and troubleshooting</p>
+                  <p className="text-[#ACB2CF]">Network security and management</p>
+                  
                 </div>
               </div>
             </div>
+            
             <div className="w-full md:w-1/3 p-2 false">
               <div className="border border-[#ACB2CF]">
                 <p className="text-white p-2 font-bold">Tools</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
-                  <p className="text-[#ACB2CF]">VSCode Neovim Linux</p>
-                  <p className="text-[#ACB2CF]">Figma XFCE Arch</p>
-                  <p className="text-[#ACB2CF]">Git Font Awesome</p>
+                  <p className="text-[#ACB2CF]">VSCode Linux</p>
+                  <p className="text-[#ACB2CF]">Figma   Git</p>
+                  <p className="text-[#ACB2CF]">Cisco Packet Tracer</p>
                 </div>
               </div>
             </div>
@@ -408,20 +411,13 @@ const page = () => {
               <div className="border border-[#ACB2CF]">
                 <p className="text-white p-2 font-bold">Other</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
-                  <p className="text-[#ACB2CF]">HTML CSS EJS SCSS</p>
-                  <p className="text-[#ACB2CF]">REST Jinja</p>
+                  <p className="text-[#ACB2CF]">HTML CSS </p>
+                  
                 </div>
               </div>
             </div>
             <div className="w-full md:w-auto p-2 md:ml-auto">
-              <div className="border border-[#ACB2CF]">
-                <p className="text-white p-2 font-bold">Frameworks</p>
-                <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
-                  <p className="text-[#ACB2CF]">React Vue</p>
-                  <p className="text-[#ACB2CF]">Disnake Discord.js</p>
-                  <p className="text-[#ACB2CF]">Flask Express.js</p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
