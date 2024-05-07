@@ -1,6 +1,5 @@
 "use client";
-// import Link from "next/link";
-import { Link } from "react-scroll";
+import { Link as Scrollink, ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -41,7 +40,7 @@ const Navbar = () => {
           <li></li>
 
           <li>
-            <Link
+            <Scrollink
               to="about" // The target element id you want to scroll to
               spy={true} // Make Link selected when scroll is at its targets position
               smooth={true} // Animation
@@ -52,10 +51,10 @@ const Navbar = () => {
             >
               <span className="text-[#C778DE]">#</span>
               about-me
-            </Link>
+            </Scrollink>
           </li>
           <li>
-            <Link
+            <Scrollink
               to="skills" // The target element id you want to scroll to
               spy={true} // Make Link selected when scroll is at its targets position
               smooth={true} // Animation
@@ -65,24 +64,11 @@ const Navbar = () => {
             >
               <span className="text-[#C778DE]">#</span>
               skills
-            </Link>
+            </Scrollink>
           </li>
+
           <li>
-            <Link
-              to="works" // The target element id you want to scroll to
-              spy={true} // Make Link selected when scroll is at its targets position
-              smooth={true} // Animation
-              offset={-70} // Scroll additional px (like padding)
-              duration={500}
-              className="cursor-pointer hover:text-white text-[#ACB2CF]"
-              // href="/works"
-            >
-              <span className="text-[#C778DE]">#</span>
-              works
-            </Link>
-          </li>
-          <li>
-            <Link
+            <Scrollink
               to="contactss" // The target element id you want to scroll to
               spy={true} // Make Link selected when scroll is at its targets position
               smooth={true} // Animation
@@ -93,7 +79,7 @@ const Navbar = () => {
             >
               <span className="text-[#C778DE]">#</span>
               contacts
-            </Link>
+            </Scrollink>
           </li>
         </ul>
       </div>

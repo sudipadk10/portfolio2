@@ -1,7 +1,6 @@
 import Home from "./home/page";
 import Contact from "./contact/page";
 import Skills from "./skills/page";
-import Works from "./works/page";
 import About from "./about/page";
 
 export default function Ghar() {
@@ -10,7 +9,6 @@ export default function Ghar() {
       <Home />
       <About />
       <Skills />
-      <Works />
       <Contact />
     </div>
   );

@@ -2,20 +2,7 @@ const page = () => {
   return (
     <div className="bg-[#282C34] w-full text-white py-0 mt-40 mb-40" id="works">
       <div className="container mx-auto max-w-7xl px-4 md:px-8 py-8 flex items-center">
-        <h2 id="projects" className="text-3xl font-bold">
-          <span className="text-[#C778DE]">#</span>
-          projects
-        </h2>
-        <hr className="w-3/5 mx-4 border-t border-[#C778DE]" />
-        <div className="flex-grow"></div>
-        <a
-          href="/projects"
-          className="text-[#ACB2CF] hover:text-white transition-colors"
-        >
-          View all ~~&gt;
-        </a>
-      </div>
-      <div className="container mx-auto max-w-7xl px-4 md:px-8">
+        <h1>COMING SOON...</h1>
         <div className="flex space-x-4 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300">
           <div className="border border-[#ACB2CF] self-start flex-shrink-0">
             <img

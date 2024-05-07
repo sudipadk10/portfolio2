@@ -389,20 +389,25 @@ const page = () => {
               <div className="border border-[#ACB2CF]">
                 <p className="text-white p-2 font-bold">Networking</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
-                  <p className="text-[#ACB2CF]">Router and switch configuration</p>
-                  <p className="text-[#ACB2CF]">Network subneting and troubleshooting</p>
-                  <p className="text-[#ACB2CF]">Network security and management</p>
-                  
+                  <p className="text-[#ACB2CF]">
+                    Router and switch configuration
+                  </p>
+                  <p className="text-[#ACB2CF]">
+                    Network subneting and troubleshooting
+                  </p>
+                  <p className="text-[#ACB2CF]">
+                    Network security and management
+                  </p>
                 </div>
               </div>
             </div>
-            
+
             <div className="w-full md:w-1/3 p-2 false">
               <div className="border border-[#ACB2CF]">
                 <p className="text-white p-2 font-bold">Tools</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
                   <p className="text-[#ACB2CF]">VSCode Linux</p>
-                  <p className="text-[#ACB2CF]">Figma   Git</p>
+                  <p className="text-[#ACB2CF]">Figma Git</p>
                   <p className="text-[#ACB2CF]">Cisco Packet Tracer</p>
                 </div>
               </div>
@@ -412,13 +417,10 @@ const page = () => {
                 <p className="text-white p-2 font-bold">Other</p>
                 <div className="border-t border-[#ACB2CF] p-2 flex flex-col space-y-2">
                   <p className="text-[#ACB2CF]">HTML CSS </p>
-                  
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-auto p-2 md:ml-auto">
-              
-            </div>
+            <div className="w-full md:w-auto p-2 md:ml-auto"></div>
           </div>
         </div>
       </div>
