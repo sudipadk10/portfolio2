@@ -1,9 +1,9 @@
 "use client";
-import { Link as Scrollink, ScrollLink } from "react-scroll";
+import { Link as Scrollink } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#282C34] text-white relative">
+    <nav className="bg-[#282C34] text-white  sticky top-0 ">
       <div className="container mx-auto flex justify-between items-center max-w-7xl p-8">
         <div className="flex items-center font-semibold">
           <svg
